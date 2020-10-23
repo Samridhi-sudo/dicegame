@@ -1,0 +1,122 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background:linear-gradient(to bottom, rgba(0,0,0,0.3), rgba(0,0,0,0.3)) , url("bkg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow-x: hidden;
+}
+#box{
+    margin-bottom: 50px;
+}
+#container{
+    position: relative;
+    top: 50px;
+    margin: auto;
+    background-color: white;
+    background: linear-gradient(to bottom, rgba(0,0,0,1), rgba(0,0,100,0.5));
+    width:80%;
+/*    border:7px double white;*/
+    box-shadow: 5px 5px 30px #000000;
+    padding: 30 20 30 20px;
+    border-radius: 10px;
+}
+h1{
+    font-family: livvic;
+    font-size: 70px;
+    color:white;
+    text-shadow: 2px 2px 20px #ffffff;
+    letter-spacing: 5px;
+/*    border-bottom: 2px dotted white;*/
+    width: 51%;
+}
+
+#box{
+    position: relative;
+    width:100%;
+}
+#scoreboard{
+    position: relative;
+    background-color: white;
+    width:70%;
+    background-color: aquamarine;
+    background: linear-gradient(to bottom,rgba(0,0,0,0),rgba(0,0,0,0));
+}
+#leftPart{
+    position:relative;
+    top: 60px;
+    height: 30%;
+    width: 35%;
+    margin-left: 3%;
+}
+#p{
+    position: relative;
+    color: white;
+    font-family: courier;
+    letter-spacing: 8px;
+    font-size: 50px;
+}
+#score{
+    position: relative;
+    left: 90%;
+    top: -125px;
+    color: white;
+    font-family: sans-serif;
+    letter-spacing: 5px;
+    font-size: 110px;
+}
+#rightPart{
+    position: relative;
+    top: -170px;
+    width:40%;
+    float: right;
+}
+#time{
+    position: relative;
+    top: 30;
+    color: white;
+    font-size: 50px;
+    text-align: left;
+    padding-left: 30px;
+    font-family: jokerman;
+    font-weight: bold;
+}
+#time i{
+    padding-right: 30px;
+}
+#rightPart img{
+    position: relative;
+    left: 150px;
+    width: 40%;
+    border:2px solid white;
+    border-radius: 40px;
+}
+#lst{
+    position: relative;
+    left: 50%;
+    top:40px;
+}
+#rollButton{
+    position: relative;
+    transform: translateX(-50%);
+    font-family:sans-serif;
+    font-size: 30px;
+    padding: 0 0 0 45px;
+    background-color: transparent;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: all 0.3s;
+/*    border: 1px solid white;*/
+}
+#rollButton:hover {
+    letter-spacing: 3px;
+}
+i{
+    transition: transform 0.1s;
+}
+#rollButton:hover i{
+    transform: rotate(45deg);
+}

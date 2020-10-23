@@ -1,0 +1,38 @@
+<html>
+    <head>
+        <title>ROLL-da-DICE</title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <link href="https://fonts.googleapis.com/css?family=Livvic&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="icon" type="img/png" href="dice-3.png">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="myjava.js"></script>
+    </head>
+    <body>
+        <div id="container">
+            <div id="box">
+                <center>
+                    <h1>ROLL-da-DICE</h1>
+                </center> 
+                <div id="time"><i class="fa fa-clock-o"></i><span id="timer">20s</span></div>
+                    <div id="leftPart">
+                        <div id="scoreBoard">
+                            <div id="p">
+                            YOUR SCORE:
+                            </div>
+                            <p id="score">0</p>
+                        </div>
+                    </div>
+                    <div id="rightPart">
+                    <img id="img" src="dice-1.png">
+                    </div>
+                    <div id="lst">
+                    <button id="rollButton" onclick="fxn1()">
+                        <i class="fa fa-refresh"></i>
+                        <span>ROLL AGAIN</span>
+                    </button>
+                    </div>
+            </div>
+        </div>
+    </body>
+</html>
